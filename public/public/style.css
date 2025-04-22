@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+  .videos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  video {
+    width: 45%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  
